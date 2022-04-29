@@ -5,8 +5,8 @@ $name = $_POST['name'];
 $email = $_POST['email'];
 $message = $_POST['message'];
 $textarea = $_POST['textarea']
-$to = "demerydev@gmail.com"
-$subject = "Mail From Profile"
+$to = "demerydev@gmail.com";
+$subject = "Mail From Profile";
 
 
 $header = "From:".$name. "\r\n"
