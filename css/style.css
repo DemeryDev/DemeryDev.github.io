@@ -184,15 +184,29 @@ a:active {
       padding-bottom: 5rem !important;
   }
 
-  section.resume-section .resume-item .resume-date {
+  section.resume-section .resume-date {
       min-width: none;
+  }
+
+  .resume-item{
+    min-width: 1200px;
+    
+    
+   
+  }
+
+  @media (min-width: 768px){
+    .resume-item{
+        min-width: 18rem;
+    }
+    
   }
 
   @media (min-width: 768px) {
       section.resume-section {
           min-height: 100vh;
       }
-      section.resume-section .resume-item .resume-date {
+      section.resume-section .resume-date {
           min-width: 18rem;
       }
   }
@@ -232,9 +246,7 @@ a:active {
       background-repeat: no-repeat;
   }
 
-  #about h1 {
-    /*font-size: 100%;*/
-  }
+
 
 /*==================================================
                     EXPERIENCE
@@ -246,7 +258,14 @@ a:active {
   #experience .card h4{
     font-family: 'Roboto Condensed', sans-serif;
     text-transform: none;
-    color:#555;
+    color:rgb(90, 81, 81);
+  }
+
+  #experience .card p{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 25px;
+    text-transform: none;
+    color:rgb(19, 20, 19);
   }
 
 /*====================================================
