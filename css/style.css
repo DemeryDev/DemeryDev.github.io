@@ -189,7 +189,8 @@ a:active {
   }
 
   .resume-item{
-    min-width: 1200px;
+    min-width: none;
+   
     
     
    
